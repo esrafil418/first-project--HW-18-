@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "SoDoSans-Black";
+  src: url("/src/assets/fonts/SoDoSans-Black.eot") format("eot"),
+    url("/src/assets/fonts/SoDoSans-Black.woff") format("woff"),
+    url("/src/assets/fonts/SoDoSans-Black.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "SoDoSans-Bold";
+  src: url("/src/assets/fonts/SoDoSans-Bold.eot") format("eot"),
+    url("/src/assets/fonts/SoDoSans-Bold.woff") format("woff"),
+    url("/src/assets/fonts/SoDoSans-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "SoDoSans-Regular";
+  src: url("/src/assets/fonts/SoDoSans-Regular.eot") format("eot"),
+    url("/src/assets/fonts//SoDoSans-Regular.woff") format("woff"),
+    url("/src/assets/fonts/SoDoSans-Regular.woff2") format("woff2");
+}
+
+body {
+  font-family: "SoDoSans-Regular";
+}
+
+.starbucks {
+  font-family: "SoDoSans-Bold";
+}
