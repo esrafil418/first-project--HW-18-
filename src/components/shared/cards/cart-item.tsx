@@ -1,18 +1,18 @@
 type CartItemProps = {
   name: string;
   price: number;
-  quantitiy: number;
+  quantity: number; 
 };
 
-export default function CartItem({ name, price, quantitiy }: CartItemProps) {
+export default function CartItem({ name, price, quantity }: CartItemProps) {
   return (
     <div className="flex justify-between items-center py-2 border-b">
       <div className="flex-1">
         <h3 className="font-medium">{name}</h3>
-        <p>${price.toFixed(1)}</p>
+        <p>${price.toFixed(2)}</p> 
       </div>
       <div className="text-lg">
-        Qty: <span className="font-bold">{quantitiy}</span>
+        Qty: <span className="font-bold">{quantity}</span>
       </div>
     </div>
   );
